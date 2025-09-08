@@ -1,0 +1,15 @@
+
+
+
+@media (min-width: 576px){
+    .news-img img {
+        height: 75px;
+    }
+}
+
+@media (max-width: 576px){
+    .news-img img{
+        width: 100%;
+        height: auto;
+    }
+}

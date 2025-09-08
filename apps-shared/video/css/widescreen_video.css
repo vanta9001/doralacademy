@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url('../../fonts/fa-solid-900.woff') format('woff2');
+}
+
+.en-widescreen-video {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+}
+
+.en-widescreen-video video {
+    object-fit: cover;
+    width: 100%;
+}
+
+.en-widescreen-video .en-video-controls {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.en-widescreen-video button {
+    width: clamp(32px, 4.090909vw, 45px);
+    height: clamp(32px, 4.090909vw, 45px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Font Awesome 5 Free", serif;
+    font-size: clamp(14px, 1.818181vw, 20px);
+
+    padding: 10px;
+}
+
+.en-widescreen-video .play-btn:before {
+    content: "\f28b";
+}
+
+.en-widescreen-video.paused .play-btn:before {
+    content: "\f04b";
+}
+
+.en-widescreen-video .mute-btn:before {
+    content: "\f028";
+}
+
+.en-widescreen-video.muted .mute-btn:before {
+    content: "\f6a9";
+}

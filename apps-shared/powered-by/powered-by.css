@@ -1,0 +1,25 @@
+
+.en-powered-by {
+    width: 100%;
+    background-color: #015cd9;
+    font-size: 10px;
+    font-family: BoomBox2, serif;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.en-powered-by a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.en-powered-by a span:nth-child(1) {
+    font-family: Arial, serif;
+    font-size: 11px;
+    margin-bottom: 3px;
+    text-transform: lowercase;
+}
